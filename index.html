@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Site</title>
+  <link href="css/main.css" rel="stylesheet"></head>
+  <body>
+    <div class="overlay"></div>
+    <div class="burger">
+      <sapn class="burger__item"></sapn>
+      <sapn class="burger__item"></sapn>
+      <sapn class="burger__item"></sapn>
+    </div>
+    <main>
+<section class="multiplication"></section>
+<div class="layout">
+  <div class="multiplication__navigate">
+    <button class="multiplication__btn multiplication__btn--active"> 2</button>
+    <button class="multiplication__btn">3</button>
+    <button class="multiplication__btn">4</button>
+    <button class="multiplication__btn">5</button>
+    <button class="multiplication__btn">6</button>
+    <button class="multiplication__btn">7</button>
+    <button class="multiplication__btn">8</button>
+    <button class="multiplication__btn">9</button>
+  </div>
+  <div class="multiplication__wrapper">
+    <div class="multiplication__card">
+      <div class="multiplication__card-front">
+        <!--.multiplication__quest 2 #[span *] 2-->
+        <div class="multiplication__quest"></div>
+        <div class="multiplication__main">
+          <input class="multiplication__input" type="text" placeholder="Введите число" id="multiplicationInput">
+          <button class="button" id="submit-result">проверить</button>
+        </div>
+      </div>
+      <div class="multiplication__card-back">
+        <div class="multiplication__result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+      <!--section
+      .layout
+          ul.menu-view
+              +listLink('Home', 'home.html', 'menu-view__list', 'menu-view__link')
+              +listLink('Home', 'home.html', 'menu-view__list', 'menu-view__link')
+      -->
+    </main>
+  <script src="js/main.js"></script></body>
+</html>
